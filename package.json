@@ -1,0 +1,19 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "nodemon-package-test",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon res-form.js",
+    "start-server": "node res-form.js"
+  },
+  "author": "Sristi Shreya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
