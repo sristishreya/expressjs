@@ -9,7 +9,7 @@ router.get('/add-product',(req,res,next)=>{
 });
 
 router.post('/add-product',(req,res,next)=>{
-    console.log(res.body);
-    res.redirect('/');
+    console.log(req.body);
+    res.redirect('/shop');
 });
 module.exports= router;
